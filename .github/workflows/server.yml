@@ -1,3 +1,4 @@
+"
 name: Linux-server
 
 on:
@@ -43,4 +44,4 @@ jobs:
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
               git commit -m "Linux-server : Loop $(date -u +%D-%T%P)"
-              git push -q https://${{ secrets.GIT_TOKEN }}@${{ secrets.GIT_REPO }} HEAD:Linux-server
+              git push -q https://${{ secrets.GIT_TOKEN }}@${{ secrets.GIT_REPO }} HEAD:Linux-server "

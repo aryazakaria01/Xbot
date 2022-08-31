@@ -114,7 +114,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴍᴜꜱɪᴄ ᴄᴏᴍᴍᴀɴᴅs", url=f"https://t.me/{BOT_USERNAME}?start=mhelp"),
+        InlineKeyboardButton(text="ᴍᴜꜱɪᴄ ᴄᴏᴍᴍᴀɴᴅs", url=f"http://t.me/{BOT_USERNAME}?start=help"),
     ],
     [
         InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="IronMen_"),
