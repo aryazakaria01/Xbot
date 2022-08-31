@@ -2402,9 +2402,15 @@ def fed_user_help(update: Update, context: CallbackContext):
 ❂ /frules*:* See Federation regulations\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
+__help__ ="""
+🎩 Fed *:*
 
+❂ /fedownerhelp *:* Click here for fed owner help
+❂ /fedadminhelp *:* Click here for fed admin help
+❂ /feduserhelp  *:* Click here for fed user help
+"""
 
-__mod_name__ = "Federations"
+__mod_name__ = "ꜰᴇᴅ"
 
 
 NEW_FED_HANDLER = CommandHandler("newfed", new_fed)
