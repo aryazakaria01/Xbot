@@ -26,7 +26,13 @@ class Config(object):
     EVENT_LOGS = (
         -1001351412926
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-
+    ALLOW_CHATS="awoo"
+    HEROKU_API_KEY="awoo"
+    HEROKU_APP_NAME="awoo"
+    TEMP_DOWNLOAD_DIRECTORY="awoo"
+    OPENWEATHERMAP_ID="awoo"
+    ARQ_API_KEY="awoo"
+    ARQ_API_URL="awoo"
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "postgresql://hcjfbzij:Rt4bGc1EuLvdpuoXe9jlW2mfq1iJXfY_@lallah.db.elephantsql.com/hcjfbzij"  # needed for any database modules
     LOAD = []
