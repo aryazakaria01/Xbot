@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 
 uptime = get_readable_time((time.time() - StartTime))
 PM_START_TEXT = f"""
-
+────「 [✨](https://te.legra.ph/file/d5e4e6a1b6414b0d4444d.mp4) 」────
 *ʜᴇʏ ʜɪ ! *
 ───────────────────────
 × *I'ᴍ 🇴¤๋͜ғͥғɪᴄͣɪͫ͢ꫝʟ✮͢♔⃟≛⃝🇶 ᴜᴇᴇɴ⋆⏤͟͟❥͢𐏓➳⍣⃟♔ 👸 Gʀᴏᴜᴘ Mᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ Vᴄ ᴘʟᴀʏᴇʀ*
@@ -248,7 +248,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_sticker(
-                "CAACAgUAAxkBAAJYsmLWRvm70cE-mmxSNCovEf4v1ueJAAIcCAACbMK4VuL4EmZEkq8WKQQ"
+                "CAACAgUAAxkBAAEF-LtjD1jPRiFra0oSkjItyhLRKXOzaAAC9AQAAiNMyVU5_bT535xatSkE"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME),
