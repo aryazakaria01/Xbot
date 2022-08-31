@@ -34,7 +34,7 @@ class Config(object):
     ARQ_API_KEY="awoo"
     ARQ_API_URL="awoo"
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgresql://hcjfbzij:Rt4bGc1EuLvdpuoXe9jlW2mfq1iJXfY_@lallah.db.elephantsql.com/hcjfbzij"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
     LOAD = []
     START_IMG ="https://te.legra.ph/file/74f97b1978c493689fe6e.mp4"
     MONGO_DB_URI="mongodb+srv://logesh:logesh@cluster0.z75dh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
