@@ -16,9 +16,9 @@ class Config(object):
 
     API_ID = 17881110  # integer value, dont use ""
     API_HASH = "41d02175c2858cae93b745ffa4aaed24"
-    TOKEN = "5558413169:AAEP69-SWLjh2ftdpj0-v2aG9aN31ANB1Ag"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "5625036376:AAHJS3Tkf13qV8oz10vbYf-ePQY92NH5fj8"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 5523873067  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "rowdy_of_plus"
+    OWNER_USERNAME = "@ASSISTANT_FOR_OFFICALQUEEN0"
     SUPPORT_CHAT = "Team_udanpirappu"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001351412926
