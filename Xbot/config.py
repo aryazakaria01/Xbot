@@ -34,7 +34,7 @@ class Config(object):
     ARQ_API_KEY="awoo"
     ARQ_API_URL="awoo"
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgresql://doadmin:AVNS_fuMYd0pSpW2j53UlKVK@db-postgresql-blr1-33134-do-user-12193171-0.b.db.ondigitalocean.com:25060/defaultdb?sslmode=require"# needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "mysql://doadmin:AVNS_m7dPLSCr4Okwbq2Vedb@db-mysql-blr1-16603-do-user-12193171-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED"# needed for any database modules
     LOAD = []
     START_IMG ="https://te.legra.ph/file/74f97b1978c493689fe6e.mp4"
     MONGO_DB_URI="mongodb+srv://logesh:logesh@cluster0.z75dh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
