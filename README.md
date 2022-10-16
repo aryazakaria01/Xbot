@@ -5,6 +5,7 @@
        
        
 2
+
        pip3 install --upgrade pip setuptools
        
        
