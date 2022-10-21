@@ -25,10 +25,13 @@ async def awake(event):
     TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
     BUTTON = [
         [
-            Button.url("ʜᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"),
-            Button.url("sᴜᴘᴘᴏʀᴛ​", f"https://t.me/Dosto_ki_Mehfil786"),
+            Button.url(
+                "ʜᴇʟᴘ​", f"https://t.me/{dispatcher.bot.username}?start=help"
+            ),
+            Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/Dosto_ki_Mehfil786"),
         ]
     ]
+
     ran = random.choice(PHOTO)
     await tbot.send_file(event.chat_id, ran, caption=TEXT, buttons=BUTTON)
 
